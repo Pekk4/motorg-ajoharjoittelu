@@ -1,14 +1,18 @@
 import { BrowserRouter as Router } from "react-router-dom"
-import { Container } from "@mui/material"
 
-import AppHeader from "./Components/AppHeader"
+import styles from "./index.css"
+import Banner from "./Components/Banner"
+import BottomBar from "./Components/BottomBar"
+import AppRoutes from "./Components/AppRoutes"
 
 const App = () => (
-  <Container maxWidth="xl">
+  <div>
     <Router>
-      <AppHeader />
+      <Banner />
+      <AppRoutes />
     </Router>
-  </Container>
+    <BottomBar />
+  </div>
 )
 
 export default App
