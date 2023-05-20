@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom"
 import AjoHarjoittelu from "./AjoHarjoittelu"
 import Home from "./Home"
 import Kurssit from "./Kurssit"
-import Moottoriradat from "./Moottoriradat"
 import Tapahtumat from "./Tapahtumat"
 
 const Kauppa = () => {
@@ -20,7 +19,6 @@ const AppRoutes = () => {
         <Route path="/Ajoharjoittelu" element={<AjoHarjoittelu />} />
         <Route path="/Kurssit" element={<Kurssit />} />
         <Route path="/Tapahtumat" element={<Tapahtumat />} />
-        <Route path="/Moottoriradat" element={<Moottoriradat />} />
         <Route path="/Kauppa" element={<Kauppa />} />
       </Routes>
     </div>

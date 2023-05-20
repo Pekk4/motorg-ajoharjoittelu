@@ -5,7 +5,6 @@ const Banner = () => {
     "Ajoharjoittelu",
     "Kurssit",
     "Tapahtumat",
-    "Moottoriradat",
     "Kauppa",
   ]
 
