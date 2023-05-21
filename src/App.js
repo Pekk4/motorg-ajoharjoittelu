@@ -6,10 +6,12 @@ import BottomBar from "./Components/BottomBar"
 import AppRoutes from "./Components/AppRoutes"
 
 const App = () => (
-  <div>
+  <div className="h-[100vh]">
     <Router>
       <Banner />
-      <AppRoutes />
+      <div className="max-h-[90vh] overflow-y-auto pb-14">
+        <AppRoutes />
+      </div>
     </Router>
     <BottomBar />
   </div>
